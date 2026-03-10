@@ -21,6 +21,11 @@ float division(float a, float b)
     return a / b;
 }
 
+double power(double a, double b)
+{
+    return pow(a,b);
+}
+
 int main()
 {
     int choice;
