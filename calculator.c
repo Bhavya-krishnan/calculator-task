@@ -11,6 +11,11 @@ float subtraction(float a, float b)
     return a - b;
 }
 
+float multiplication(float a, float b)
+{
+    return a * b;
+}
+
 int main()
 {
     int choice;
