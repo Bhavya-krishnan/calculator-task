@@ -16,6 +16,11 @@ float multiplication(float a, float b)
     return a * b;
 }
 
+float division(float a, float b)
+{
+    return a / b;
+}
+
 int main()
 {
     int choice;
