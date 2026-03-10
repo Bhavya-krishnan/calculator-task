@@ -26,6 +26,17 @@ double power(double a, double b)
     return pow(a,b);
 }
 
+double squareroot(double n)
+{
+    if(n < 0)
+    {
+        printf("Error: Square root of negative number is not possible\n");
+        return -1;
+    }
+
+    return sqrt(n);
+}
+
 int main()
 {
     int choice;
