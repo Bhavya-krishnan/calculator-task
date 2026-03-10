@@ -1,9 +1,14 @@
 #include <stdio.h>
 #include <math.h>
 
-float add(float a, float b)   // ADD THIS PART
+float add(float a, float b)
 {
     return a + b;
+}
+
+float subtraction(float a, float b)
+{
+    return a - b;
 }
 
 int main()
@@ -26,15 +31,6 @@ int main()
         if(choice==1)
         {
             printf("Addition");
-
-            float a,b,result;
-
-    printf("Enter two numbers: ");
-    scanf("%f %f",&a,&b);
-
-    result = add(a,b);
-
-    printf("Result = %.2f\n",result);
 
             
         }
@@ -72,5 +68,4 @@ int main()
     return 0;
 }
 
-// Addition 
 
